@@ -1,5 +1,3 @@
-# Italian Dub by DoctorGroovy
-
 #+------------------------------------------------------------------------------------------------------+#
 #|                                                                                                      |#
 #|                                                                                                      |#
@@ -16,7 +14,7 @@
 #|                                                                                                      |#
 #+------------------------------------------------------------------------------------------------------+#
 
-version: 'CLEARED-Velocity-1.15.0'
+version: 'CLEARED-Bungee-1.16.1'
 
 preLoginErrorInvalidNickname: '&8[&c&l»&8] &7Perfavore usa un nickname diverso!'
 preLoginErrorInvalidNicknameCases: '&8[&c&l»&8] &7Perfavore cambia il tuo nickname in &a%nickname%&7!'
@@ -27,7 +25,26 @@ preLoginErrorRegisterAtWebsite: '&8[&c&l»&8] &7Perfavore registra il tuo accoun
 preLoginErrorChangedPremiumNickname: '&8[&c&l»&8] &7Questo server non supporta il cambio di nickname premium, perciò ritorna con il tuo vecchio username: &a%nickname%&7!'
 preLoginErrorUserCannotBeLoaded: '&8[&c&l»&8] &7Impossibile caricare il tuo profilo utente!'
 preLoginErrorUserNotLoaded: '&8[&c&l»&8] &7Il tuo profile non è stato caricato nello sessione di pre-login!'
-preLoginPremiumVerification: '&8[&a&l»&8] &7Il tuo account premium è statp verificato! Perfavore rientra nel server!'
+preLoginPremiumVerification: '&8[&a&l»&8] &7Il tuo account premium è stato verificato! Perfavore rientra nel server!'
+
+disconnectRedirectionTitle: ''
+disconnectRedirectionSubTitle: ''
+disconnectRedirectionFadeIn: 0
+disconnectRedirectionStay: 0
+disconnectRedirectionFadeOut: 0
+disconnectRedirectionChat: '&8[&c&l»&8] &7You have been disconnected from the server and you have been automatically redirected to the other server! The disconnect reason is ''%reason%&7''!'
+
+lastServerRedirection: '&8[&a&l»&8] &7You have been redirected to the server you were last time!'
+
+disconnectRedirectionTitle: ''
+disconnectRedirectionSubTitle: ''
+disconnectRedirectionFadeIn: 0
+disconnectRedirectionStay: 0
+disconnectRedirectionFadeOut: 0
+disconnectRedirectionChat: '&8[&c&l»&8] &7Sei stato disconnesso dal server e sei stato automaticamente reindirizzato in un altro server! Il motivo della disconnessione è ''%reason%&7''!'
+
+
+lastServerRedirection: '&8[&a&l»&8] &7Sei stato reindirizzato nel server in cui eri la scorsa volta!'
 
 joinSessionPremiumTitle: '&a&lCiao %nickname%'
 joinSessionPremiumSubTitle: '&aUna sessione premium!'
